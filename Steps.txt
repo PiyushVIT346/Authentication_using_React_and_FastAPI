@@ -1,0 +1,11 @@
+pip install passlib[bcrypt]
+pip install SQLAlchemy
+pip install fastapi[all]
+pip install pyjwt
+
+write code for 
+1. database.py 
+2. models.py
+3. Schema.py
+4. Services.py
+5. main.py
