@@ -6,6 +6,12 @@ import sqlalchemy.orm as _orm
 
 import services as _services, schemas as _schemas
 
+
+from database import Base, engine
+import models
+Base.metadata.create_all(bind=engine)
+
+
 app = _fastapi.FastAPI()
 
 

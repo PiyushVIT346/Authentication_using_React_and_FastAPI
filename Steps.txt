@@ -9,3 +9,8 @@ write code for
 3. Schema.py
 4. Services.py
 5. main.py
+
+D:\projects\ReactJS+FastAPI+Python>npx create-react-app frontend
+cd frontend
+npm start
+npm install bulma moment
